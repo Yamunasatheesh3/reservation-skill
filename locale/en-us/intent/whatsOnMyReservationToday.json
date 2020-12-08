@@ -1,0 +1,5 @@
+{
+    "utterance": "what's on my reservation today",
+    "intent_type": "DaysReserveIntent",
+    "expected_dialog": "NoReserveToday"
+}
