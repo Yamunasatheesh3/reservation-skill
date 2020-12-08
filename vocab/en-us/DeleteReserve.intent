@@ -1,0 +1,3 @@
+delete {event} from schedule
+delete {event} from my schedule
+delete {event}
