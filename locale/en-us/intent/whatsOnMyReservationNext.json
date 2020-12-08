@@ -1,5 +1,5 @@
 {
     "utterance": "what's next on my reservation",
-    "intent_type": "NextEventIntent",
-    "expected_dialog": "NoNextAppointments"
+    "intent_type": "NextReserveIntent",
+    "expected_dialog": "NoNextReservations"
 }
