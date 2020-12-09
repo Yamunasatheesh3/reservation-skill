@@ -258,7 +258,7 @@ class Reservation(MycroftSkill):
         
     @intent_file_handler('DeleteReserve.intent')
     def add_deletereserve(self, message=None):
-        subject = self.get_response('whatEventToBeDeleted')
+        subject = self.get_response('whatReserveToBeDeleted')
         self.delete_event(subject)
         
     def create_reserve(self, subject, start_time, end_time, summary=None):
